@@ -2,7 +2,8 @@
 
 int factorial(int n);
 
-int main(){
+int main()
+{
     int n;
 
     printf("수를 입력하시오: ");
@@ -12,7 +13,8 @@ int main(){
     return 0;
 }
 
-int factorial(int n){
+int factorial(int n)
+{
     printf("factorial(%d)", n);
 
     if(n<=1)
